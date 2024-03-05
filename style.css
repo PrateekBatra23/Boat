@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+.gallery-container {
+    width: 100%;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    white-space: nowrap; /* Prevent items from wrapping */
+    margin: 20px; /* Adjust spacing as needed */
+}
+
+.gallery {
+    display: inline-block; /* Ensure the gallery container expands to fit its content */
+}
+
+.gallery-item {
+    display: inline-block;
+    text-align: center;
+    width: 400px; /* Set the width of each item */
+    margin-right: 20px; /* Adjust spacing between items */
+    border-radius: 10px; /* Rounded corners for each item */
+}
+
+.gallery-item img,
+.gallery-item video {
+    max-width: 100%; /* Ensure images and videos don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for images and videos */
+}
+
+.gallery-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar {
+    background-color: white !important; /* Change navbar background color */
+    padding-top: 20px; /* Increase padding top */
+    padding-bottom: 20px; /* Increase padding bottom */
+}
+.navbar-brand img {
+    width: 150px; /* Increase the size of the logo */
+}
+.navbar-nav .nav-link {
+   font-size: 18px; /* Increase font size of navbar links */
+    margin-right: 20px; /* Increase space between navbar links */
+}
+.card {
+    border-radius: 15px; /* Adjust the radius as needed */
+    overflow: hidden; /* Ensure overflow is hidden to clip rounded corners */
+  }
+  .two-point-o span.metafeild-label.label--highlight.custom-label.ui-2 {
+    justify-content: center !important;
+    max-width: 70% !important;
+    border: 1px solid white;
+    bottom: -12px;
+    top: unset;
+    left: 15%;
+    z-index: 1;
+    border-radius: 10px !important;
+    padding: 6px 10px !important;
+    font-size: 12px;
+    font-weight: 700;
+    background: #fcc50b;
+    color: #000;
+    letter-spacing: -0.48px;}
+  .btn-primary{
+    margin-left: 300px;
+    background-color: black;
+    color: azure;
+  }
+  .label--highlight{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 1px;
+    top: 66%;
+    z-index: 1;
+    background-color: #fcc50b;
+    color: #000;
+    font-size: 20px;
+    border-radius: 20px !important;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .footer__item-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.footer-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #293036;
+    margin-bottom: 10px;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list li {
+    margin-bottom: 5px;
+}
+
+.footer-list li a {
+    color: #6d6d6d;
+    text-decoration: none;
+}
+
+.footer-list li a:hover {
+    color: #293036;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.signup-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #293036;
+}
+
+.input-block {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align input block to the right */
+}
+
+.input-block input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-block button {
+    margin-left: 10px;
+    background-color: #293036;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+}
+.pic{
+  align-items: center;
+}
+
