@@ -89,6 +89,18 @@ body {
     padding-left: 30px;
     padding-right: 30px;
   }
+  .dropdown-menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    width: 1500px; /* Adjust width as needed */
+    padding: 15px;
+  }
+  
+  .dropdown-item {
+    text-align: center;
+  }
+  
   
 .pic{
   align-items: center;
